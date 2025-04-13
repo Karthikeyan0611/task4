@@ -1,45 +1,75 @@
-Sales Performance Dashboard – Supermarket Sales Dataset
-📊 This project features an interactive dashboard created using Power BI, built to analyze sales performance across branches, products, and customer demographics. It helps business stakeholders identify trends and optimize decision-making.
+📊 Sales Performance Dashboard – Supermarket Sales Dataset
+An interactive Power BI dashboard designed to analyze sales performance across branches, product lines, and customer demographics. Built to support data-driven decision-making for business stakeholders.
 
 📁 Dataset
-Source: Supermarket Sales Dataset (Kaggle)
+Source: Supermarket Sales Dataset – Kaggle
 Format: CSV
-Fields include: Invoice ID, Branch, City, Customer Type, Gender, Product Line, Total, gross income, Rating, Date, Time, Payment
+Fields include:
+Invoice ID, Branch, City, Customer Type, Gender, Product Line, Total, Gross Income, Rating, Date, Time, Payment
+
 🎯 Objective
-Design a dynamic sales dashboard to help business users:
+To develop a dynamic sales dashboard that enables users to:
 
 Track Total Sales and Profit
-Analyze performance across Product Lines and Branches
-Identify trends over time (monthly sales)
-Understand customer demographics
+
+Analyze performance by Product Line and Branch
+
+Identify Monthly Trends
+
+Understand Customer Demographics
+
 📈 Key Features
 ✅ KPI Cards
+💰 Total Sales
 
-Total Sales
-Total Profit
-Average Customer Rating
-Total Transactions
+📊 Total Profit
+
+⭐ Average Customer Rating
+
+🧾 Total Transactions
+
 ✅ Visualizations
+📉 Monthly Sales Trend – Line Chart
 
-Monthly Sales Trend (Line Chart)
-Sales by Product Line (Bar Chart)
-Profit by Branch (Bar Chart)
-Gender and Customer Type Distribution (Pie/Donut Charts)
+📦 Sales by Product Line – Bar Chart
+
+🏬 Profit by Branch – Bar Chart
+
+👤 Gender & Customer Type Distribution – Pie/Donut Charts
+
 ✅ Interactivity
+🔍 Slicers to filter by:
 
-Slicers: Filter by City, Branch, Product Line, and Date Range
+City
+
+Branch
+
+Product Line
+
+Date Range
+
 ✅ Design
+Clean and modern layout
 
-Clean layout with consistent theme
-Rounded KPI cards with custom background
-Data labels and tooltips enabled for clarity
+Rounded KPI cards with custom backgrounds
+
+Consistent color theme
+
+Tooltips and data labels for improved readability
+
 🧰 Tools Used
 Power BI Desktop
-DAX (Data Analysis Expressions)
-Power Query Editor (for preprocessing)
+
+Power Query Editor – for data preprocessing
+
+DAX – for calculated measures and KPIs
+
 📦 File Structure
-/task4.pbix → Main Power BI file
-/supermarket_sales.csv → Dataset
+bash
+Copy
+Edit
+/task4.pbix             # Power BI dashboard file
+/supermarket_sales.csv  # Raw dataset
 📝 Summary
-This dashboard allows stakeholders to quickly monitor sales performance and customer behavior with easy-to-use visuals and filters. It was developed as part of a business intelligence task to demonstrate storytelling, interactivity, and visual design using Power BI.
+This dashboard empowers stakeholders to explore key metrics and insights effortlessly. It was developed to showcase proficiency in business intelligence, data storytelling, and interactive reporting using Power BI.
 
